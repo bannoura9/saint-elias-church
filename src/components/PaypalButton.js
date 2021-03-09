@@ -2,14 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import scriptLoader from "react-async-script-loader";
 
-const CLIENT = {
-  sandbox:
-    "ASPBC_qoUy88qb1CShHWBvtf7gmXVNs4H1rB8c7jeC8Wp-A6R3XL6zEMF6yMfTaXEFBwoLrrX8GqCloS",
-  production: "your_production_key",
-};
-
-const CLIENT_ID =
-  process.env.NODE_ENV === "production" ? CLIENT.production : CLIENT.sandbox;
+const CLIENT_ID = process.env.REACT_APP_PAYPAL_CLIENT_ID;
 
 let PayPalButton = null;
 class PaypalButton extends React.Component {
@@ -52,14 +45,32 @@ class PaypalButton extends React.Component {
     }
   }
   createOrder = (data, actions) => {
+    let paymentDescription = "";
+    for (const cart of this.props.cart) {
+      for (const user of cart.meta) {
+        paymentDescription += ` ${user.name} ${user.email} ${user.phone}`;
+      }
+    }
     return actions.order.create({
       purchase_units: [
         {
-          description: +"Mercedes G-Wagon",
+          description: paymentDescription,
           amount: {
             currency_code: "USD",
             value: this.props.cartTotal,
           },
+          // items: this.props.cart.map((item) => ({
+          //   name: item.title,
+          //   unit_amount: item.price,
+          //   tax: "",
+          //   quantity:
+          //     item.id === "tee-time"
+          //       ? item.meta.filter((player) => player.prepaid).length
+          //       : 1,
+          //   description: item.description,
+          //   sku: item.id,
+          //   category: "",
+          // })),
         },
       ],
     });
@@ -73,6 +84,10 @@ class PaypalButton extends React.Component {
       };
       console.log("Payment Approved: ", paymentData);
       this.setState({ showButtons: false, paid: true });
+      localStorage.setItem("cart", "[]");
+      setTimeout(() => {
+        this.props.history.push("/");
+      }, 2000);
     });
   };
 
@@ -93,14 +108,7 @@ class PaypalButton extends React.Component {
         {paid && (
           <div className="main">
             {/* <img alt="Mercedes G-Wagon" src={Car} /> */}
-            <h2>
-              Congrats! you just paid for that picture. Work a little harder and
-              you'll be able to afford the car itself{" "}
-              <span role="img" aria-label="emoji">
-                {" "}
-                😉
-              </span>
-            </h2>
+            <h2>Thank you for your purchase</h2>
           </div>
         )}
       </div>

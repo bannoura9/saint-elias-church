@@ -1,0 +1,9 @@
+.player-checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button.disabled {
+  cursor: none;
+}

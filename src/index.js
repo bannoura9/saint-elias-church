@@ -35,6 +35,7 @@ ReactDOM.render(
       <Route path="/blog-posts" render={(props) => <BlogPosts {...props} />} /> */}
       <Route path="/contact-us" render={(props) => <ContactUs {...props} />} />
       <Route path="/e-commerce" render={(props) => <Ecommerce {...props} />} />
+      <Route path="/shop" render={(props) => <Ecommerce {...props} />} />
       <Route path="/index" render={(props) => <Index {...props} />} />
       <Route
         path="/landing-page"

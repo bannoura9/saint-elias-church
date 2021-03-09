@@ -5,7 +5,7 @@ import React from "react";
 // core components
 import ScrollTransparentNavbar from "components/Navbars/ScrollTransparentNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
-import FooterBlack from "components/Footers/FooterBlack.js";
+import FooterSocial from "components/Footers/FooterSocial.js";
 
 // sections for this page
 import Images from "./index-sections/Images.js";
@@ -61,7 +61,7 @@ function Index() {
           <FileUploader />
           <Carousel />
           <NucleoIcons />
-          <FooterBlack />
+          <FooterSocial />
         </div>
       </div>
     </>

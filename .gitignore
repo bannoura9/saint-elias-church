@@ -25,3 +25,4 @@ Documentation
 ISSUE_TEMPLATE.md
 /src/assets/img/*
 /api/node_modules
+**/*.env
