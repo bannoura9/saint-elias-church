@@ -207,7 +207,9 @@ function ProfilePage() {
                           className="card-background card-background-product card-raised"
                           style={{
                             backgroundImage:
-                              "url(" + require("assets/img/project8.jpg") + ")",
+                              "url(" +
+                              require("../../assets/img/project8.jpg") +
+                              ")",
                           }}
                         >
                           <CardBody>
