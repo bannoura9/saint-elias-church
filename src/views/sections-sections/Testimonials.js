@@ -103,9 +103,9 @@ function Testimonials() {
       <div className="cd-section" id="testimonials">
         <div
           className="testimonials-1 section-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg19.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg19.jpg") + ")",
+          // }}
         >
           <Container>
             <Row>

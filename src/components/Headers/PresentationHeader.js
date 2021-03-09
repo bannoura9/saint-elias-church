@@ -12,12 +12,12 @@ function PresentationHeader() {
         <div className="rellax-header rellax-header-sky" data-rellax-speed="-4">
           <div
             className="page-header-image"
-            style={{
-              backgroundImage:
-                "url(" +
-                require("assets/img/presentation-page/nuk-pro-back-sky.jpg") +
-                ")",
-            }}
+            // style={{
+            //   backgroundImage:
+            //     "url(" +
+            //     require("assets/img/presentation-page/nuk-pro-back-sky.jpg") +
+            //     ")",
+            // }}
           ></div>
         </div>
         <div
@@ -26,12 +26,12 @@ function PresentationHeader() {
         >
           <div
             className="page-header-image page-header-city"
-            style={{
-              backgroundImage:
-                "url(" +
-                require("assets/img/saint-elisas-background.png") +
-                ")",
-            }}
+            // style={{
+            //   backgroundImage:
+            //     "url(" +
+            //     require("assets/img/saint-elisas-background.png") +
+            //     ")",
+            // }}
           ></div>
         </div>
         <div className="rellax-text-container rellax-text">

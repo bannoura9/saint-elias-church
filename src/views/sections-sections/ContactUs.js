@@ -126,9 +126,9 @@ function ContactUs() {
       <div className="cd-section" id="contact-us">
         <div
           className="contactus-1 section-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/contact1.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/contact1.jpg") + ")",
+          // }}
         >
           <Container>
             <Row>

@@ -289,10 +289,10 @@ function Cards() {
             <Col className="px-0" md="6">
               <Card
                 className="card-fashion card-background"
-                style={{
-                  backgroundImage:
-                    "url(" + require("assets/img/bg26.jpg") + ")",
-                }}
+                // style={{
+                //   backgroundImage:
+                //     "url(" + require("assets/img/bg26.jpg") + ")",
+                // }}
               >
                 <CardBody>
                   <CardTitle className="text-left" tag="div">
@@ -360,10 +360,10 @@ function Cards() {
                 </Card>
                 <Card
                   className="card-fashion card-background"
-                  style={{
-                    backgroundImage:
-                      "url('http://mvpwp.com/demo/nowwp/wp-content/uploads/sites/6/2017/06/a-james-donovan-180375.jpg')",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url('http://mvpwp.com/demo/nowwp/wp-content/uploads/sites/6/2017/06/a-james-donovan-180375.jpg')",
+                  // }}
                 ></Card>
               </div>
             </Col>
@@ -560,10 +560,10 @@ function Cards() {
               <Col md="6">
                 <Card
                   className="card-background"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/bg1.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/bg1.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <CardTitle className="text-left" tag="div">
@@ -596,10 +596,10 @@ function Cards() {
               <Col md="6">
                 <Card
                   className="card-background"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/bg3.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/bg3.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <CardTitle className="text-left" tag="div">
@@ -699,10 +699,10 @@ function Cards() {
               <Col lg="3" md="6">
                 <Card
                   className="card-pricing card-background"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project12.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project12.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <h6 className="category">Professional</h6>

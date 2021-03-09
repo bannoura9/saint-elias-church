@@ -216,9 +216,9 @@ function Pricing() {
           </div>
           <div
             className="contactus-1 section-image"
-            style={{
-              backgroundImage: "url(" + require("assets/img/bg27.jpg") + ")",
-            }}
+            // style={{
+            //   backgroundImage: "url(" + require("assets/img/bg27.jpg") + ")",
+            // }}
           >
             <Container>
               <Row>

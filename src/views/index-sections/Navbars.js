@@ -208,9 +208,9 @@ function Navbars() {
         <div id="navbar">
           <div
             className="navigation-example"
-            style={{
-              backgroundImage: "url(" + require("assets/img/bg7.jpg") + ")",
-            }}
+            // style={{
+            //   backgroundImage: "url(" + require("assets/img/bg7.jpg") + ")",
+            // }}
           >
             <Navbar color="primary" expand="lg">
               <Container>

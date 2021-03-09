@@ -25,7 +25,7 @@ import {
 // core components
 const items = [
   {
-    src: "url(" + require("assets/img/bg20.jpg") + ")",
+    // src: "url(" + require("assets/img/bg20.jpg") + ")",
     content: (
       <Row>
         <Col md="5">
@@ -54,7 +54,7 @@ const items = [
     caption: "",
   },
   {
-    src: "url(" + require("assets/img/bg15.jpg") + ")",
+    // src: "url(" + require("assets/img/bg15.jpg") + ")",
     content: (
       <Row>
         <Col className="ml-auto mr-auto text-center" md="8">
@@ -107,7 +107,7 @@ const items = [
     caption: "",
   },
   {
-    src: "url(" + require("assets/img/bg17.jpg") + ")",
+    // src: "url(" + require("assets/img/bg17.jpg") + ")",
     content: (
       <Row>
         <Col className="text-left" md="6">
@@ -263,9 +263,9 @@ function Headers() {
           <div className="page-header header-filter">
             <div
               className="page-header-image"
-              style={{
-                backgroundImage: "url(" + require("assets/img/bg16.jpg") + ")",
-              }}
+              // style={{
+              //   backgroundImage: "url(" + require("assets/img/bg16.jpg") + ")",
+              // }}
             ></div>
             <Container>
               <Row>
@@ -402,9 +402,9 @@ function Headers() {
           <div className="page-header header-filter">
             <div
               className="page-header-image"
-              style={{
-                backgroundImage: "url(" + require("assets/img/bg14.jpg") + ")",
-              }}
+              // style={{
+              //   backgroundImage: "url(" + require("assets/img/bg14.jpg") + ")",
+              // }}
             ></div>
             <Container>
               <Row>

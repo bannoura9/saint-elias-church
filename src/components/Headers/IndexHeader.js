@@ -12,12 +12,12 @@ function IndexHeader() {
         <div className="rellax-header rellax-header-sky" data-rellax-speed="-4">
           <div
             className="page-header-image"
-            style={{
-              backgroundImage:
-                "url(" +
-                require("assets/img/presentation-page/nuk-pro-back-sky.jpg") +
-                ")",
-            }}
+            // style={{
+            //   backgroundImage:
+            //     "url(" +
+            //     require("assets/img/presentation-page/nuk-pro-back-sky.jpg") +
+            //     ")",
+            // }}
           ></div>
         </div>
         <div
@@ -26,12 +26,12 @@ function IndexHeader() {
         >
           <div
             className="page-header-image page-header-city"
-            style={{
-              backgroundImage:
-                "url(" +
-                require("assets/img/presentation-page/nuk-pro-buildings.png") +
-                ")",
-            }}
+            // style={{
+            //   backgroundImage:
+            //     "url(" +
+            //     require("assets/img/presentation-page/nuk-pro-buildings.png") +
+            //     ")",
+            // }}
           ></div>
         </div>
         <div className="rellax-text-container">

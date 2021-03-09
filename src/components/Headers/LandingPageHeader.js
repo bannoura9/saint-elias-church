@@ -25,9 +25,9 @@ function LandingPageHeader() {
       <div className="page-header page-header-small">
         <div
           className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg26.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg26.jpg") + ")",
+          // }}
           ref={pageHeader}
         ></div>
         <div className="content-center">

@@ -12,7 +12,7 @@ import {
 // core components
 const items = [
   {
-    src: "url(" + require("assets/img/golf/golf-funny.jpeg") + ")",
+    // src: "url(" + require("assets/img/golf/golf-funny.jpeg") + ")",
     content: (
       <Row>
         <Col className="ml-auto mr-auto" md="8">
@@ -27,7 +27,7 @@ const items = [
     caption: "",
   },
   {
-    src: "url(" + require("assets/img/golf/golf-funny2.jpeg") + ")",
+    // src: "url(" + require("assets/img/golf/golf-funny2.jpeg") + ")",
     content: (
       <Row>
         <Col className="ml-auto mr-auto text-center" md="8">
@@ -46,7 +46,7 @@ const items = [
     caption: "",
   },
   {
-    src: "url(" + require("assets/img/golf/golf-funny3.jpeg") + ")",
+    // src: "url(" + require("assets/img/golf/golf-funny3.jpeg") + ")",
     content: (
       <Row>
         <Col className="ml-auto mr-auto" md="8">

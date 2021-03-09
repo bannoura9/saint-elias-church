@@ -46,10 +46,10 @@ function BlogPosts() {
               <Col className="px-0" md="6">
                 <Card
                   className="card-fashion card-background"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project10.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project10.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <CardTitle className="text-left" tag="div">
@@ -120,10 +120,10 @@ function BlogPosts() {
               <Col className="px-0" md="3">
                 <Card
                   className="card-fashion card-background"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project11.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project11.jpg") + ")",
+                  // }}
                 ></Card>
               </Col>
             </Row>
@@ -131,10 +131,10 @@ function BlogPosts() {
               <Col className="px-0" md="3">
                 <Card
                   className="card-fashion card-background"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project12.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project12.jpg") + ")",
+                  // }}
                 ></Card>
               </Col>
               <Col className="px-0" md="3">
@@ -174,10 +174,10 @@ function BlogPosts() {
               <Col className="px-0" md="6">
                 <Card
                   className="card-fashion card-background"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project13.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project13.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <CardTitle className="text-left" tag="div">
@@ -344,9 +344,9 @@ function BlogPosts() {
             <div
               className="team-3 section-image"
               data-parallax={true}
-              style={{
-                backgroundImage: "url(" + require("assets/img/bg26.jpg") + ")",
-              }}
+              // style={{
+              //   backgroundImage: "url(" + require("assets/img/bg26.jpg") + ")",
+              // }}
             >
               <Container>
                 <Row>

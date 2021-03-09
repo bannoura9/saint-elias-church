@@ -27,9 +27,9 @@ function Pricing() {
         <div
           className="pricing-1 section-image"
           id="pricing-1"
-          style={{
-            backgroundImage: "url(" + require("assets/img/pricing1.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/pricing1.jpg") + ")",
+          // }}
         >
           <Container>
             <Row>
@@ -214,10 +214,10 @@ function Pricing() {
               <Col md="4">
                 <Card
                   className="card-pricing card-background card-raised"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/pricing2.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/pricing2.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <h5 className="category text-info">Professional</h5>
@@ -289,9 +289,9 @@ function Pricing() {
         <div
           className="pricing-3 section-image"
           id="pricing-3"
-          style={{
-            backgroundImage: "url(" + require("assets/img/pricing3.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/pricing3.jpg") + ")",
+          // }}
         >
           <Container>
             <Row>
@@ -460,9 +460,9 @@ function Pricing() {
         <div
           className="pricing-5 section-pricing-5 section-image"
           id="pricing-5"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg31.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg31.jpg") + ")",
+          // }}
         >
           <Container>
             <Row>

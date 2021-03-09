@@ -25,9 +25,9 @@ function BlogPostHeader() {
       <div className="page-header page-header-small">
         <div
           className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg24.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg24.jpg") + ")",
+          // }}
           ref={pageHeader}
         ></div>
         <div className="content-center">

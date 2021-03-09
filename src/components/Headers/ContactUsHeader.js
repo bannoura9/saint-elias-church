@@ -24,10 +24,10 @@ function ContactUsHeader() {
       <div className="page-header page-header-small">
         <div
           className="page-header-image"
-          style={{
-            backgroundImage:
-              "url(" + require("assets/img/golf/Contact-us.jpeg") + ")",
-          }}
+          // style={{
+          //   backgroundImage:
+          //     "url(" + require("assets/img/golf/Contact-us.jpeg") + ")",
+          // }}
           ref={pageHeader}
         ></div>
       </div>

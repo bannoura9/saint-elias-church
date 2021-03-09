@@ -64,10 +64,10 @@ function LandingPage() {
                 <Col md="6">
                   <div
                     className="image-container image-left"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/bg38.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/bg38.jpg") + ")",
+                    // }}
                   >
                     <p className="blockquote blockquote-info">
                       "Over the span of the satellite record, Arctic sea ice has
@@ -79,19 +79,19 @@ function LandingPage() {
                   </div>
                   <div
                     className="image-container image-left-bottom"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/bg24.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/bg24.jpg") + ")",
+                    // }}
                   ></div>
                 </Col>
                 <Col md="5">
                   <div
                     className="image-container image-right"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/bg39.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/bg39.jpg") + ")",
+                    // }}
                   ></div>
                   <h3>
                     So what does the new record for the lowest level of winter
@@ -133,9 +133,9 @@ function LandingPage() {
         </div>
         <div
           className="testimonials-1 section-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg19.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg19.jpg") + ")",
+          // }}
         >
           <Container>
             <Row>
@@ -306,10 +306,10 @@ function LandingPage() {
               <Col md="4">
                 <Card
                   className="card-pricing card-background card-raised"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/pricing2.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/pricing2.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <h6 className="category text-info">Professional</h6>

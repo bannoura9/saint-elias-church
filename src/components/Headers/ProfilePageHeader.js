@@ -28,9 +28,9 @@ function ProfilePageHeader() {
       >
         <div
           className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg5.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg5.jpg") + ")",
+          // }}
           ref={pageHeader}
         ></div>
         <Container>

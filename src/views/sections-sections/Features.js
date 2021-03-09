@@ -64,9 +64,9 @@ function Features() {
         </div>
         <div
           className="features-2 section-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg22.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg22.jpg") + ")",
+          // }}
         >
           <Container fluid>
             <Row>
@@ -186,10 +186,10 @@ function Features() {
                 <Card
                   className="card-background card-raised"
                   data-background-color=""
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/bg24.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/bg24.jpg") + ")",
+                  // }}
                 >
                   <div className="info">
                     <div className="icon icon-white">
@@ -216,10 +216,10 @@ function Features() {
                 <Card
                   className="card-background card-raised"
                   data-background-color=""
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/bg23.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/bg23.jpg") + ")",
+                  // }}
                 >
                   <div className="info">
                     <div className="icon icon-white">
@@ -242,10 +242,10 @@ function Features() {
                 <Card
                   className="card-background card-raised"
                   data-background-color=""
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/bg25.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/bg25.jpg") + ")",
+                  // }}
                 >
                   <div className="info">
                     <div className="icon icon-white">
@@ -406,9 +406,9 @@ function Features() {
         </div>
         <div
           className="features-7 section-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg11.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg11.jpg") + ")",
+          // }}
         >
           <Col className="mr-auto ml-auto text-center" md="8">
             <h2 className="title">Working is a pleasure</h2>
@@ -473,9 +473,9 @@ function Features() {
         </div>
         <div
           className="features-8 section-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg30.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg30.jpg") + ")",
+          // }}
         >
           <Col className="ml-auto mr-auto text-center" md="8">
             <h2 className="title">Working is a pleasure</h2>

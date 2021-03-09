@@ -101,10 +101,10 @@ function Projects() {
               <Col className="px-0" md="6">
                 <Card
                   className="card-background card-background-product card-no-shadow"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project1.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project1.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <h6 className="category">History</h6>
@@ -127,10 +127,10 @@ function Projects() {
               <Col className="px-0" md="6">
                 <Card
                   className="card-raised card-background card-background-product card-no-shadow"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project18.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project18.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <h6 className="category">Satire</h6>
@@ -153,10 +153,10 @@ function Projects() {
               <Col className="px-0" md="6">
                 <Card
                   className="card-background card-background-product card-no-shadow"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project20.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project20.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <h6 className="category">Fiction</h6>
@@ -180,10 +180,10 @@ function Projects() {
               <Col className="px-0" md="6">
                 <Card
                   className="card-background card-background-product card-no-shadow"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project19.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project19.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <h6 className="category">Basic Civitas</h6>
@@ -332,10 +332,10 @@ function Projects() {
                 <Col md="6">
                   <div
                     className="image-container image-left"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/project4.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/project4.jpg") + ")",
+                    // }}
                   >
                     <p className="blockquote blockquote-info">
                       "Amber Interiors is available to assist in all aspects of
@@ -347,10 +347,10 @@ function Projects() {
                 <Col md="5">
                   <div
                     className="image-container image-right"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/project21.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/project21.jpg") + ")",
+                    // }}
                   ></div>
                   <h6 className="category text-info">Design</h6>
                   <CardTitle tag="h4">Coco Kelley</CardTitle>
@@ -367,10 +367,10 @@ function Projects() {
                 <Col md="6">
                   <div
                     className="image-container image-left"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/project24.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/project24.jpg") + ")",
+                    // }}
                   >
                     <p className="blockquote blockquote-info">
                       "We provide a simple, approachable way to decorate your
@@ -382,10 +382,10 @@ function Projects() {
                 <Col md="5">
                   <div
                     className="image-container image-right"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/project23.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/project23.jpg") + ")",
+                    // }}
                   ></div>
                   <h6 className="category text-info">E-Decor</h6>
                   <CardTitle tag="h4">Red Trad</CardTitle>
@@ -411,10 +411,10 @@ function Projects() {
               <Col className="px-0" md="6">
                 <Card
                   className="card-fashion card-background"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project14.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project14.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <CardTitle className="text-left" tag="div">
@@ -460,10 +460,10 @@ function Projects() {
                   </Card>
                   <Card
                     className="card-fashion card-background"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/project15.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/project15.jpg") + ")",
+                    // }}
                   ></Card>
                 </div>
               </Col>
@@ -473,10 +473,10 @@ function Projects() {
                 <div className="card-container">
                   <Card
                     className="card-fashion card-background"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/project17.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/project17.jpg") + ")",
+                    // }}
                   ></Card>
                   <Card className="card-fashion arrow-left">
                     <CardTitle tag="div">
@@ -503,10 +503,10 @@ function Projects() {
               <Col className="px-0" md="6">
                 <Card
                   className="card-fashion card-background"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project16.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project16.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <CardTitle className="text-left" tag="div">
@@ -547,10 +547,10 @@ function Projects() {
               <Col className="ml-auto" md="5">
                 <Card
                   className="card-background card-background-product card-raised"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("../../assets/img/project8.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("../../assets/img/project8.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <CardTitle tag="h2">Social Analytics</CardTitle>
@@ -649,10 +649,10 @@ function Projects() {
               <Col className="mr-auto" md="5">
                 <Card
                   className="card-background card-background-product card-raised"
-                  style={{
-                    backgroundImage:
-                      "url(" + require("assets/img/project9.jpg") + ")",
-                  }}
+                  // style={{
+                  //   backgroundImage:
+                  //     "url(" + require("assets/img/project9.jpg") + ")",
+                  // }}
                 >
                   <CardBody>
                     <CardTitle tag="h2">Trello lets you work.</CardTitle>

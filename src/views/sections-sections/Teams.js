@@ -345,9 +345,9 @@ function Teams() {
         </div>
         <div
           className="team-3 section-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg21.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg21.jpg") + ")",
+          // }}
         >
           <Container>
             <Row>
@@ -714,9 +714,9 @@ function Teams() {
         </div>
         <div
           className="team-5 section-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg9.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg9.jpg") + ")",
+          // }}
         >
           <Container>
             <Row>

@@ -65,10 +65,10 @@ function FreeDemo() {
                 <Col className="pt-5" md="6">
                   <Card
                     className="card-pricing card-background"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/project1.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/project1.jpg") + ")",
+                    // }}
                   >
                     <CardBody>
                       <CardTitle tag="h3">Free Demo</CardTitle>
@@ -98,10 +98,10 @@ function FreeDemo() {
                 <Col className="pt-5" md="6">
                   <Card
                     className="card-pricing card-background"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/pricing1.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/pricing1.jpg") + ")",
+                    // }}
                   >
                     <CardBody>
                       <CardTitle tag="h3">PRO Version</CardTitle>

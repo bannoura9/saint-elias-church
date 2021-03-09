@@ -11,9 +11,9 @@ function PricingHeader() {
       <div className="page-header page-header-small">
         <div
           className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg37.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg37.jpg") + ")",
+          // }}
         ></div>
         <div className="content-center">
           <Row>

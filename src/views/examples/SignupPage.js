@@ -44,9 +44,9 @@ function SignupPage() {
       <div className="page-header header-filter" filter-color="black">
         <div
           className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/bg18.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage: "url(" + require("assets/img/bg18.jpg") + ")",
+          // }}
         ></div>
         <div className="content">
           <Container>

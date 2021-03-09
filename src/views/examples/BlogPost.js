@@ -112,10 +112,10 @@ function BlogPost() {
                   <Col md="6">
                     <div
                       className="image-container image-left"
-                      style={{
-                        backgroundImage:
-                          "url(" + require("assets/img/bg35.jpg") + ")",
-                      }}
+                      // style={{
+                      //   backgroundImage:
+                      //     "url(" + require("assets/img/bg35.jpg") + ")",
+                      // }}
                     >
                       <p className="blockquote blockquote-info">
                         "Over the span of the satellite record, Arctic sea ice
@@ -127,19 +127,19 @@ function BlogPost() {
                     </div>
                     <div
                       className="image-container image-left-bottom"
-                      style={{
-                        backgroundImage:
-                          "url(" + require("assets/img/bg29.jpg") + ")",
-                      }}
+                      // style={{
+                      //   backgroundImage:
+                      //     "url(" + require("assets/img/bg29.jpg") + ")",
+                      // }}
                     ></div>
                   </Col>
                   <Col md="5">
                     <div
                       className="image-container image-right"
-                      style={{
-                        backgroundImage:
-                          "url(" + require("assets/img/project16.jpg") + ")",
-                      }}
+                      // style={{
+                      //   backgroundImage:
+                      //     "url(" + require("assets/img/project16.jpg") + ")",
+                      // }}
                     ></div>
                     <h3>
                       So what does the new record for the lowest level of winter

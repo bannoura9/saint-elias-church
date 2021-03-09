@@ -10,9 +10,9 @@ function Image() {
     <>
       <div
         className="section features-7 section-image"
-        style={{
-          backgroundImage: "url(" + require("assets/img/bg51.jpg") + ")",
-        }}
+        // style={{
+        //   backgroundImage: "url(" + require("assets/img/bg51.jpg") + ")",
+        // }}
       >
         <Container fluid>
           <Row>

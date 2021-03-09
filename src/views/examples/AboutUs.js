@@ -119,10 +119,10 @@ function AboutUs() {
                 <Col className="ml-auto" md="5">
                   <Card
                     className="card-background card-background-product card-raised"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("../../assets/img/project8.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("../../assets/img/project8.jpg") + ")",
+                    // }}
                   >
                     <CardBody>
                       <CardTitle tag="h2">Social Analytics</CardTitle>
@@ -221,10 +221,10 @@ function AboutUs() {
                 <Col className="mr-auto" md="5">
                   <Card
                     className="card-background card-background-product card-raised"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/project9.jpg") + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/project9.jpg") + ")",
+                    // }}
                   >
                     <CardBody>
                       <CardTitle tag="h2">Trello lets you work.</CardTitle>

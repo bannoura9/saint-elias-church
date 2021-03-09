@@ -272,9 +272,9 @@ function PreFooter() {
           <br></br>
           <div
             className="subscribe-line subscribe-line-image"
-            style={{
-              backgroundImage: "url(" + require("assets/img/bg7.jpg") + ")",
-            }}
+            // style={{
+            //   backgroundImage: "url(" + require("assets/img/bg7.jpg") + ")",
+            // }}
           >
             <Container>
               <Row>

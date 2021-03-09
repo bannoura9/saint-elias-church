@@ -26,10 +26,10 @@ function ProductPageHeader() {
       <div className="page-header page-header-mini">
         <div
           className="page-header-image"
-          style={{
-            backgroundImage:
-              "url(" + require("assets/img/golf/golf-main.jpg") + ")",
-          }}
+          // style={{
+          //   backgroundImage:
+          //     "url(" + require("assets/img/golf/golf-main.jpg") + ")",
+          // }}
           ref={pageHeader}
         ></div>
       </div>

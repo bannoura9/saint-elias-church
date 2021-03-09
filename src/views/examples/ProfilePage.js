@@ -153,10 +153,10 @@ function ProfilePage() {
                       <Col className="ml-auto mr-auto" md="5">
                         <Card
                           className="card-background card-background-product card-raised"
-                          style={{
-                            backgroundImage:
-                              "url(" + require("assets/img/bg23.jpg") + ")",
-                          }}
+                          // style={{
+                          //   backgroundImage:
+                          //     "url(" + require("assets/img/bg23.jpg") + ")",
+                          // }}
                         >
                           <CardBody>
                             <CardTitle tag="h2">Chair remake.</CardTitle>
@@ -205,12 +205,12 @@ function ProfilePage() {
                       <Col className="ml-auto mr-auto" md="5">
                         <Card
                           className="card-background card-background-product card-raised"
-                          style={{
-                            backgroundImage:
-                              "url(" +
-                              require("../../assets/img/project8.jpg") +
-                              ")",
-                          }}
+                          // style={{
+                          //   backgroundImage:
+                          //     "url(" +
+                          //     require("../../assets/img/project8.jpg") +
+                          //     ")",
+                          // }}
                         >
                           <CardBody>
                             <CardTitle tag="h2">Social Analytics</CardTitle>
@@ -261,10 +261,10 @@ function ProfilePage() {
                       <Col className="ml-auto mr-auto" md="5">
                         <Card
                           className="card-background card-background-product card-raised"
-                          style={{
-                            backgroundImage:
-                              "url(" + require("assets/img/bg25.jpg") + ")",
-                          }}
+                          // style={{
+                          //   backgroundImage:
+                          //     "url(" + require("assets/img/bg25.jpg") + ")",
+                          // }}
                         >
                           <CardBody>
                             <CardTitle tag="h2">Interior Redesign</CardTitle>
