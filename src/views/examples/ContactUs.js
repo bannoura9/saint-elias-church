@@ -22,11 +22,11 @@ import {
 } from "reactstrap";
 
 // core components
-import DropdownWhiteNavbar from "components/Navbars/DropdownWhiteNavbar.js";
+// import DropdownWhiteNavbar from "components/Navbars/DropdownWhiteNavbar.js";
 import ContactUsHeader from "components/Headers/ContactUsHeader.js";
-import PresentationHeader from "components/Headers/PresentationHeader.js";
+// import PresentationHeader from "components/Headers/PresentationHeader.js";
 import ScrollTransparentNavbar from "components/Navbars/ScrollTransparentNavbar.js";
-import Footer from "components/Footers/Footer.js";
+import FooterSocial from "components/Footers/FooterSocial.js";
 
 const MapWrapper = withScriptjs(
   withGoogleMap((props) => (
@@ -329,7 +329,7 @@ function ContactUs() {
             mapElement={<div style={{ height: `100%` }} />}
           />
         </div>
-        <Footer />
+        <FooterSocial />
       </div>
     </>
   );

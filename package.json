@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.17.1",
     "google-maps-react": "^2.0.6",
     "moment": "2.26.0",
     "node-sass": "4.14.1",
@@ -22,8 +23,10 @@
     "rellax": "1.12.1"
   },
   "scripts": {
-    "start": "export NODE_ENV='development' && react-scripts start",
-    "build": "react-scripts build && gulp licenses",
+    "start": "node server.js",
+    "build": "pwd && cp -r ./build /app/build",
+    "old-start": "export NODE_ENV='development' && react-scripts start",
+    "old-build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",

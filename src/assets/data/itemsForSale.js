@@ -41,7 +41,6 @@ const itemsForSale = [
     displayAdditionalFields: true,
     additionalImages: [GolfOne, GolfTwo, GolfThree],
   },
-
   {
     image: HoleSponsor,
     title: "Hole Sponsor",

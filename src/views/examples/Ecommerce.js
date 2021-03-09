@@ -29,7 +29,7 @@ import {
 // core components
 import ScrollTransparentNavbar from "components/Navbars/ScrollTransparentNavbar.js";
 import EcommerceHeader from "components/Headers/EcommerceHeader.js";
-import Footer from "components/Footers/Footer.js";
+import FooterSocial from "components/Footers/FooterSocial.js";
 // import TeeTime from "../../assets/img/golf/teetime.jpg";
 
 import itemsOnSale from "../../assets/data/itemsForSale";
@@ -726,7 +726,7 @@ function Ecommerce() {
             </Container> */}
           </div>
         </div>
-        <Footer />
+        <FooterSocial />
       </div>
     </>
   );
