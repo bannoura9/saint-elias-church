@@ -1,6 +1,7 @@
 import React from "react";
 // react plugin used to create DropdownMenu for selecting items
 import Select from "react-select";
+import Olivia from "../../assets/img/olivia.jpg";
 
 // reactstrap components
 import {
@@ -262,7 +263,7 @@ function AboutUs() {
                             <img
                               alt="..."
                               className="img img-raised rounded"
-                              src={require("assets/img/olivia.jpg")}
+                              src={Olivia}
                             ></img>
                           </a>
                         </div>
