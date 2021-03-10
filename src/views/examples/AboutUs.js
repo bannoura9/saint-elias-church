@@ -313,11 +313,11 @@ function AboutUs() {
                       <Col md="5">
                         <div className="card-image">
                           <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                            <img
+                            {/* <img
                               alt="..."
                               className="img img-raised rounded"
                               src={require("assets/img/emily.jpg")}
-                            ></img>
+                            ></img> */}
                           </a>
                         </div>
                       </Col>
@@ -374,11 +374,11 @@ function AboutUs() {
                       <Col md="5">
                         <div className="card-image">
                           <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                            <img
+                            {/* <img
                               alt="..."
                               className="img img-raised rounded"
                               src={require("assets/img/james.jpg")}
-                            ></img>
+                            ></img> */}
                           </a>
                         </div>
                       </Col>
@@ -427,11 +427,11 @@ function AboutUs() {
                       <Col md="5">
                         <div className="card-image">
                           <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                            <img
+                            {/* <img
                               alt="..."
                               className="img img-raised rounded"
                               src={require("assets/img/michael.jpg")}
-                            ></img>
+                            ></img> */}
                           </a>
                         </div>
                       </Col>
@@ -491,39 +491,39 @@ function AboutUs() {
               </Row>
               <Row>
                 <Col md="4">
-                  <img
+                  {/* <img
                     alt="..."
                     className="rounded img-raised"
                     src={require("assets/img/bg27.jpg")}
-                  ></img>
+                  ></img> */}
                 </Col>
                 <Col md="4">
-                  <img
+                  {/* <img
                     alt="..."
                     className="rounded img-raised"
                     src={require("assets/img/bg24.jpg")}
-                  ></img>
+                  ></img> */}
                 </Col>
                 <Col md="4">
-                  <img
+                  {/* <img
                     alt="..."
                     className="rounded img-raised"
                     src={require("assets/img/bg28.jpg")}
-                  ></img>
+                  ></img> */}
                 </Col>
                 <Col md="6">
-                  <img
+                  {/* <img
                     alt="..."
                     className="rounded img-raised"
                     src={require("assets/img/project6.jpg")}
-                  ></img>
+                  ></img> */}
                 </Col>
                 <Col md="6">
-                  <img
+                  {/* <img
                     alt="..."
                     className="rounded img-raised"
                     src={require("assets/img/project14.jpg")}
-                  ></img>
+                  ></img> */}
                 </Col>
               </Row>
             </Container>

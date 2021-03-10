@@ -266,11 +266,11 @@ function BlogPost() {
                       <Col md="2">
                         <div className="card-avatar">
                           <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                            <img
+                            {/* <img
                               alt="..."
                               className="img img-raised"
                               src={require("assets/img/mike.jpg")}
-                            ></img>
+                            ></img> */}
                           </a>
                           <div className="ripple-container"></div>
                         </div>
@@ -311,12 +311,12 @@ function BlogPost() {
                         onClick={(e) => e.preventDefault()}
                       >
                         <div className="avatar">
-                          <Media
+                          {/* <Media
                             alt="..."
                             className="img-raised"
                             object
                             src={require("assets/img/james.jpg")}
-                          ></Media>
+                          ></Media> */}
                         </div>
                       </a>
                       <Media body>
@@ -371,12 +371,12 @@ function BlogPost() {
                         onClick={(e) => e.preventDefault()}
                       >
                         <div className="avatar">
-                          <Media
+                          {/* <Media
                             alt="..."
                             className="img-raised"
                             object
                             src={require("assets/img/michael.jpg")}
-                          ></Media>
+                          ></Media> */}
                         </div>
                       </a>
                       <Media body>
@@ -423,12 +423,12 @@ function BlogPost() {
                             onClick={(e) => e.preventDefault()}
                           >
                             <div className="avatar">
-                              <Media
+                              {/* <Media
                                 alt="..."
                                 className="img-raised"
                                 object
                                 src={require("assets/img/julie.jpg")}
-                              ></Media>
+                              ></Media> */}
                             </div>
                           </a>
                           <Media body>
@@ -481,12 +481,12 @@ function BlogPost() {
                       onClick={(e) => e.preventDefault()}
                     >
                       <div className="avatar">
-                        <Media
+                        {/* <Media
                           alt="..."
                           className="img-raised"
                           object
                           src={require("assets/img/olivia.jpg")}
-                        ></Media>
+                        ></Media> */}
                       </div>
                     </a>
                     <Media body>
@@ -523,11 +523,11 @@ function BlogPost() {
                         <Row>
                           <Col md="5">
                             <div className="card-image">
-                              <img
+                              {/* <img
                                 alt="..."
                                 className="img img-raised rounded"
                                 src={require("assets/img/examples/card-blog4.jpg")}
-                              ></img>
+                              ></img> */}
                             </div>
                           </Col>
                           <Col md="7">
@@ -594,11 +594,11 @@ function BlogPost() {
                           </Col>
                           <Col md="5">
                             <div className="card-image">
-                              <img
+                              {/* <img
                                 alt="..."
                                 className="img img-raised rounded"
                                 src={require("assets/img/examples/card-blog6.jpg")}
-                              ></img>
+                              ></img> */}
                             </div>
                           </Col>
                         </Row>
