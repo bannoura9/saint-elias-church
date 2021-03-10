@@ -2,7 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import scriptLoader from "react-async-script-loader";
 
-const CLIENT_ID = process.env.REACT_APP_PAYPAL_CLIENT_ID;
+const CLIENT_ID =
+  process.env.NODE_ENV === "production"
+    ? process.env.REACT_APP_PAYPAL_CLIENT_ID_PROD
+    : process.env.REACT_APP_PAYPAL_CLIENT_ID;
 
 let PayPalButton = null;
 class PaypalButton extends React.Component {
@@ -92,6 +95,7 @@ class PaypalButton extends React.Component {
   };
 
   render() {
+    console.log("cidddd==>>>", CLIENT_ID);
     const { showButtons, loading, paid } = this.state;
 
     return (
