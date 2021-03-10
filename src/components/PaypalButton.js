@@ -85,7 +85,6 @@ class PaypalButton extends React.Component {
         payerID: data.payerID,
         orderID: data.orderID,
       };
-      console.log("Payment Approved: ", paymentData);
       this.setState({ showButtons: false, paid: true });
       localStorage.setItem("cart", "[]");
       setTimeout(() => {
@@ -95,7 +94,6 @@ class PaypalButton extends React.Component {
   };
 
   render() {
-    console.log("cidddd==>>>", CLIENT_ID);
     const { showButtons, loading, paid } = this.state;
 
     return (
